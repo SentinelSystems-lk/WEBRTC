@@ -1,0 +1,16 @@
+{
+  "name": "webrtc-peer-connection",
+  "version": "1.0.0",
+  "description": "WebRTC peer-to-peer connection example with HTTPS support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate-cert": "node generate-cert.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mkdirp": "^1.0.4",
+    "selfsigned": "^2.1.1",
+    "socket.io": "^4.7.2"
+  }
+}
