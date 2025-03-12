@@ -8,6 +8,21 @@
   ],
   "routes": [
     {
+      "src": "/user1",
+      "dest": "user1.html"
+    },
+    {
+      "src": "/user2",
+      "dest": "user2.html"
+    },
+    {
+      "src": "/socket.io/(.*)",
+      "dest": "server.js"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
       "src": "/(.*)",
       "dest": "server.js"
     }
